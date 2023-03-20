@@ -112,3 +112,19 @@ body{
 .footer{
 	grid-column: 1 / span 3;
 }
+
+@media screen and(max-width: 440px){
+
+	.group{
+		font-size: 30px;
+	}
+
+	.menu li a{
+		font-size: 24px;
+	}
+
+	.sign-up a{
+		font-size: 24px;
+	}
+
+}
