@@ -47,8 +47,8 @@ console.log(result);
 // користувачем. Користувач повинен сам вирішувати – вийти із програми або
 // продовжити введення.
 
-var i = 1;
-while (i == 1){
+var i = true;
+while (i == true){
 	var a = prompt("number =");
 	alert(a**2);
 	var p = prompt("1(yes) or 0(no)?")
