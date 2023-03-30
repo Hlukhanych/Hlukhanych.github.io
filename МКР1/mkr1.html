@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regestration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h2 align = center> Regestratio</h2>
+    </header>
+
+    <main class="main">
+
+        <form action="#" method="post" target="_blank" style="text-align: center;">
+            <label for="login">Login</label> <br>
+            <input type="text" id="login" name="login" minlength="4" maxlength="18"> <br> <br>
+            <label for="email">Email</label> <br>
+            <input type="email" id="email" name="email"> <br> <br>
+            <label for="password">Password</label> <br>
+			<input type="password" id="password" name="password" minlength="6" maxlength="20"> <br> <br>
+            <label for="phone">Phone number</label> <br>
+            <input type="tel" id="phone" name="phone" placeholder="+380XXXXXXXXX" pattern="[0-9]" required> <br> <br>
+            <label for="gender">Gender:   </label>
+            <input type="radio" id="male" name="way" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="way" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="way" value="Other">
+            <label for="other">Other</label> <br> <br>
+            <label for="about">About</label> <br>
+			<textarea type="text" id="message" name="message">Your message</textarea> <br> <br>
+            <input type="submit" value="Regestratio"> <br>
+        </form>
+    </main>
+</body>
+</html>
