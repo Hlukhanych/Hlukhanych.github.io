@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script.js"></script>
+</head>
+<body>
+<h1>Projects</h1>
+
+<div class="users_list">
+</div>
+
+<div class="add_user">
+    <form action="" onsubmit="return false" id="add_form">
+        <input type="text" id="user_name" placeholder="ПІБ">
+        <input type="text" id="project_price" placeholder="Ціна проекту">
+        <input type="number" id="firs_number" placeholder="Перша оцінка">
+        <input type="number" id="second_number" placeholder="Друга оцінка">
+        <input type="number" id="third_number" placeholder="Третя оцінка">
+        <button onclick="addBtn()" id="add_btn">Додати користувача</button>
+    </form>
+</div>
+
+<div class="delete_user">
+    <form action="" onsubmit="return false">
+        <input type="text" id="delete_name" placeholder="ПІБ">
+        <button onclick="deleteBtn()" id="delete_btn">Видалити користувача</button>
+    </form>
+</div>
+
+<div class="change_user">
+    <form action="" onsubmit="return false">
+        <input type="number" id="user_ID" placeholder="ID">
+        <input type="text" id="change_name" placeholder="ПІБ">
+        <input type="text" id="change_price" placeholder="Ціна проекту">
+        <input type="number" id="change_fN" placeholder="Перша оцінка">
+        <input type="number" id="change_sN" placeholder="Друга оцінка">
+        <input type="number" id="change_tN" placeholder="Третя оцінка">
+        <button onclick="changeBtn()" id="change_btn">Змінити користувача</button>
+    </form>
+</div>
+
+</body>
+</html>
