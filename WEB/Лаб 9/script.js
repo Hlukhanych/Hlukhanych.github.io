@@ -31,7 +31,15 @@ class ProjectUsers{
 
   add(user){
     if(!(user instanceof ProjectUser))
-      throw '${user} is not instance of TournamentUser';
+      throw '${user} is not instance of ProjectUser';
+
+    for(let i = 0; i < this.item.length; i++) {
+      if(this.item[i].id === user.id) {
+        alert("This user in collection");
+        throw "This user in collection";
+      }
+    }
+
     this.item.push(user);
     alert("Успішно");
   }
