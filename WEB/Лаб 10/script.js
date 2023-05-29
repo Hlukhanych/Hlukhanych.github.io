@@ -18,9 +18,6 @@ function getExchangeRates() {
                 priceCell.textContent = price;
             });
         })
-        .catch(error => {
-            console.log('Помилка при отриманні даних про курс валют:', error);
-        });
 }
 
 getExchangeRates();
